@@ -20,9 +20,14 @@ const config = {
     })
 };
 
+//エラーハンドリングしっかりする
 app.get("/", async (req, res) => {
     const response = await axios.request(config);
-    console.log(response);
+    console.log(response.data.status);
+    ret = response.data.status
+    if (ret === 200){
+        res.json(response.data.status);
+    }
 });
 
 app.listen(port, () => console.log(`http://localhost:${port}/`))
