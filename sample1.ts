@@ -1,1 +1,1 @@
-const msg = "fuck World";
+const msg = "fuck1 World";
