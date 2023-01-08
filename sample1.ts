@@ -1,3 +1,3 @@
-const firstName = "John";
-const lastName = "Doe";
-const age = 25;
+const hello = "Hello1 World";
+console.log(hello);
+const msg = "fuck1 World";
