@@ -1,6 +1,4 @@
-const hello = "Hello1 World";
-console.log(hello);
-const msg = "fuck1 World";
-console.log(msg);
-const msg1 = "fuck2 World";
-console.log(msg1);
+const family = [
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25 },
+];
