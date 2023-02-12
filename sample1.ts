@@ -3,5 +3,5 @@ const family = [
   { name: "Jane", age: 25 },
   { name: "Mark", age: 5 },
   { name: "Mary", age: 10 },
-  { name: "Bomb", age: 15 },
+  { name: "Bom", age: 15 },
 ];
