@@ -5,4 +5,5 @@ fn main() {
 
 pub struct Member {
     member1: String,
+    member2: String,
 }
