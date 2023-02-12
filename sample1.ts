@@ -8,4 +8,7 @@ const family = [
   { name: "jim", age: 27 },
   { name: "jack", age: 28 },
   { name: "jim", age: 29 },
+  { name: "jimmy", age: 30 },
+  { name: "jimmy", age: 31 },
+  { name: "jimmy", age: 32 },
 ];
