@@ -7,4 +7,5 @@ pub struct Member {
     member1: String,
     member2: String,
     member3: String,
+    member4: String,
 }
