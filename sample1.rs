@@ -9,4 +9,5 @@ pub struct Member {
     member3: String,
     member4: String,
     member5: String,
+    member6: String,
 }
