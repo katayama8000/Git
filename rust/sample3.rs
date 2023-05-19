@@ -10,3 +10,8 @@ fn main() {
 fn circle_area(radius: f64) -> f64 {
     radius * radius * 3.14
 }
+
+// 円の体積を求める関数
+fn circle_volume(radius: f64, height: f64) -> f64 {
+    circle_area(radius) * height
+}
