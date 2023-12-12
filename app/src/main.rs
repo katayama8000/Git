@@ -1,5 +1,7 @@
 fn main() {
     println!("Hello, world!");
+    let ret = val::val(1., 2., 3., 4.);
+    println!("{}", ret);
 }
 
 /// Returns a value of gaussian function.
@@ -16,6 +18,8 @@ fn main() {
 /// assert_eq!(y, a);
 ///
 /// ```
-pub fn val(x: f64, mu: f64, sigma: f64, a: f64) -> f64 {
-    a * (-(x - mu).powi(2) / (2. * sigma.powi(2))).exp()
+mod val {
+    pub fn val(x: f64, mu: f64, sigma: f64, a: f64) -> f64 {
+        a * (-(x - mu).powi(2) / (2. * sigma.powi(2))).exp()
+    }
 }
