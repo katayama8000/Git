@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "crates_publish_minimal"
+name = "crates-publish-minimal"
 version = "0.1.0"
