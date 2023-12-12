@@ -12,7 +12,6 @@ edition = "2021"
 "homepage" = "https://my-site-ten-mu.vercel.app/"
 "documentation" = "https://my-site-ten-mu.vercel.app/"
 "exclude" = ["tests/*", "benches/*", "examples/*", "docs/*"]
-"publish" = ["crates.io"]
 "publish-token" = "test"
 "publish-branch" = "main"
 
