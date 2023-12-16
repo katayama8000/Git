@@ -3,7 +3,7 @@ name: Output GitHub Token
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   output_token:
