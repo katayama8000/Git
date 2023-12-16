@@ -13,7 +13,7 @@ edition = "2021"
 "documentation" = "https://my-site-ten-mu.vercel.app/"
 "exclude" = ["tests/*", "benches/*", "examples/*", "docs/*"]
 "publish-token" = "test"
-"publish-branch" = "main"
+"publish-branch" = "master"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
