@@ -18,11 +18,11 @@ jobs:
           profile: minimal
           toolchain: stable
 
-      - name: Build
-        run: cargo build --release
+      - name: Login to crates.io
+        run: cargo login ${{ secrets.CRATES_IO_TOKEN }}
 
       - name: Publish to crates.io
-        run: cargo publish --token ${{ secrets.CRATES_IO_TOKEN }}
+        run: cargo publish
 
     env:
       CRATES_IO_TOKEN: ${{ secrets.CRATES_IO_TOKEN }}
