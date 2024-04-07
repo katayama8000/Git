@@ -18,4 +18,10 @@ mod tests {
         let result = add(2, 2);
         assert_eq!(result, 4);
     }
+
+    #[test]
+    fn it_not_works() {
+        let result = add(2, 3);
+        assert_ne!(result, 4);
+    }
 }
