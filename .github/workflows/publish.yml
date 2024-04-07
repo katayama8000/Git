@@ -23,6 +23,3 @@ jobs:
 
       - name: Publish to crates.io
         run: cargo publish
-
-    env:
-      CRATES_IO_TOKEN: ${{ secrets.CRATES_IO_TOKEN }}
