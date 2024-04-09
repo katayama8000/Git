@@ -9,6 +9,21 @@ pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
+#[cfg(feature = "first")]
+pub fn first() {
+    println!("First feature");
+}
+
+#[cfg(feature = "second")]
+pub fn second() {
+    println!("Second feature");
+}
+
+#[cfg(feature = "third")]
+pub fn third() {
+    println!("Third feature");
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

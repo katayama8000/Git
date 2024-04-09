@@ -19,3 +19,9 @@ edition = "2021"
 
 [dependencies]
 
+[features]
+default = ["first"]
+first = []
+second = []
+third = []
+
